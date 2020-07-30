@@ -31,9 +31,8 @@ CREATE TABLE `dbvoisins`.`t_voisins` ( `id` INT(11) NOT NULL , `nom` VARCHAR
 (255) NOT NULL , `adresse` VARCHAR(255) NOT NULL , `apropos` TEXT NOT NULL , 
 `favoris` BOOLEAN NOT NULL ) ENGINE = InnoDB; 
 ```
-* Copier les fichiers dans votre répertoire APACHE `Exemple: htdocs pour XAMPP ou www pour WAMP` 
-
-* Modifier le fichier d'accés à la base de données `entrevoisins/src/configs/DBAccess.php` en pr2cisant le nom d'utilisateur et le mot de passe.
+*  Créer un dossier nommé `entrevoisins` dans votre répertoire APACHE `Exemple: htdocs pour XAMPP ou www pour WAMP` et Copier les dossiers qui sont dans les zip ainsi les fichiers dedans. 
+* Modifier le fichier d'accés à la base de données `entrevoisins/src/configs/DBAccess.php` en précisant le nom d'utilisateur et le mot de passe.
 
 ## Contributeurs
 ---
